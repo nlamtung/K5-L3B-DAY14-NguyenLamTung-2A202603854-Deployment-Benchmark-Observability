@@ -101,7 +101,8 @@ Agent (FastAPI, port 8000, depends_on redis + qdrant)
 
 ### Exercise 3.1 / 3.2: Deploy Agent Part 6 lên Cloud & So sánh `railway.toml` vs `render.yaml`
 
-- **Public URL:** *(Đang chờ deploy — sẽ điền sau khi hoàn tất CP6)*
+- **Public URL:** https://k5-l3b-day14-nguyenlamtung-2a202603854.onrender.com
+- **Platform:** Render (Docker Web Service + Render Key Value / Redis)
 - **Screenshots:** `screenshots/dashboard.png`, `screenshots/running.png`, `screenshots/test.png`
 
 **So sánh `railway.toml` vs `render.yaml`:**
