@@ -112,6 +112,12 @@ KNOWLEDGE_BASE: list[tuple[list[str], str]] = [
     (["cloud run", "serverless", "railway", "render"],
      "Cloud Run, Railway, Render là nền tảng chạy container managed: tự scale, tự cấp HTTPS, "
      "bạn chỉ cần cung cấp image và biến môi trường."),
+    (["jwt", "xác thực"],
+     "JWT là token có chữ ký số chứa thông tin user (claims) và thời gian hết hạn (exp), "
+     "cho phép xác thực stateless; còn API key là chuỗi tĩnh dùng cho service hoặc client đơn giản."),
+    (["kubernetes", "hpa", "scale"],
+     "Kubernetes HPA (Horizontal Pod Autoscaler) tự động tăng/giảm số pod dựa trên các chỉ số "
+     "như CPU, memory hoặc custom metrics (ví dụ RPS, độ dài hàng đợi)."),
 ]
 
 # Agent v1 không có retrieval → chỉ "biết" vài câu chung chung như mock cũ
